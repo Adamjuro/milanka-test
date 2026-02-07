@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez tous nos services de nettoyage industriel, entrepôts, aviation, désinfection et gestion des déchets. Devis gratuit.">
+    <title>Nos Services - Industrie Cleaning Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <img src="./images/image.png" alt="Logo Industrie Cleaning Services" class="custom-logo">
+                </div>
+                <div class="logo-text">
+                    <span class="logo-main">INDUSTRIE</span>
+                    <span class="logo-sub">CLEANING SERVICES</span>
+                </div>
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="qui-sommes-nous.html" class="nav-link">Qui sommes-nous</a></li>
+                <li><a href="services.html" class="nav-link active">Nos Services</a></li>
+                <li><a href="engagement.html" class="nav-link">Notre Engagement</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+
+            <a href="contact.html" class="btn-primary">Demande de Devis</a>
+
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="index.html" class="mobile-nav-link">Accueil</a>
+            <a href="qui-sommes-nous.html" class="mobile-nav-link">Qui sommes-nous</a>
+            <a href="services.html" class="mobile-nav-link active">Nos Services</a>
+            <a href="engagement.html" class="mobile-nav-link">Notre Engagement</a>
+            <a href="contact.html" class="mobile-nav-link">Contact</a>
+            <a href="contact.html" class="btn-primary" style="margin-top: 1rem; display: block; text-align: center;">Demande de Devis</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 60vh;">
+        <div class="hero-bg">
+            <img src="images/hero-bg.jpg" alt="Services de nettoyage">
+        </div>
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content" style="padding-top: 8rem;">
+            <h1 class="hero-title">Nos <span>Services</span></h1>
+            <p class="hero-subtitle">Des solutions complètes et professionnelles pour tous vos besoins de nettoyage industriel et aérien en Île-de-France.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section section-gray">
+        <div class="container">
+            <div class="services-layout">
+                <!-- Sidebar -->
+                <div class="services-sidebar">
+                    <div class="sidebar-header">Nos Prestations</div>
+                    <ul class="sidebar-menu">
+                        <li><a href="#industriel" class="sidebar-link active">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>
+                            Nettoyage Industriel
+                        </a></li>
+                        <li><a href="#entrepot" class="sidebar-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>
+                            Entrepôts & Logistique
+                        </a></li>
+                        <li><a href="#exterieur" class="sidebar-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" /></svg>
+                            Nettoyage Extérieur
+                        </a></li>
+                        <li><a href="#aviation" class="sidebar-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" /></svg>
+                            Nettoyage Aviation
+                        </a></li>
+                        <li><a href="#desinfection" class="sidebar-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" /></svg>
+                            Désinfection
+                        </a></li>
+                        <li><a href="#dechets" class="sidebar-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" /></svg>
+                            Gestion des Déchets
+                        </a></li>
+                    </ul>
+                </div>
+
+                <!-- Services Grid -->
+                <div class="services-grid-2">
+                    <!-- Service 1 -->
+                    <div id="industriel" class="service-card-lg">
+                        <div class="service-card-image">
+                            <img src="images/service-nettoyage-hp.jpg" alt="Nettoyage industriel">
+                            <span class="service-badge">Industrie</span>
+                        </div>
+                        <div class="service-card-content">
+                            <h3 class="service-card-title">Nettoyage Industriel</h3>
+                            <p class="service-card-desc">Intervention complète dans les environnements industriels : usines de production, ateliers de fabrication, zones de stockage et halls industriels.</p>
+                            <ul style="list-style: none; margin-bottom: 1.5rem;">
+                                <li style="display: flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0; font-size: 0.875rem; color: var(--gray-text);">
+                                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="#d4a84b" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+                                    Nettoyage haute pression des sols et équipements
+                                </li>
+                                <li style="display: flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0; font-size: 0.875rem; color: var(--gray-text);">
+                                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="#d4a84b" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+                                    Dégraissage des machines et chaînes de production
+                                </li>
+                                <li style="display: flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0; font-size: 0.875rem; color: var(--gray-text);">
+                                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="#d4a84b" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+                                    Nettoyage des hottes et systèmes de ventilation
+                                </li>
+                            </ul>
+                            <a href="contact.html" class="btn-primary">Demander un devis →</a>
+                        </div>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div id="entrepot" class="service-card-lg">
+                        <div class="service-card-image">
+                            <img src="images/service-entrepot.jpg" alt="Entrepôts et logistique">
+                            <span class="service-badge">Logistique</span>
+                        </div>
+                        <div class="service-card-content">
+                            <h3 class="service-card-title">Entrepôts & Logistique</h3>
+                            <p class="service-card-desc">Solutions adaptées aux espaces de stockage et logistiques. Nous assurons la propreté de vos entrepôts, hangars et plateformes.</p>
+                            <ul style="list-style: none; margin-bottom: 1.5rem;">
+                                <li style="display: flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0; font-size: 0.875rem; color: var(--gray-text);">
+                                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="#d4a84b" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+                                    Nettoyage des allées et zones de circulation
+                                </li>
+                                <li style="display: flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0; font-size: 0.875rem; color: var(--gray-text);">
+                                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="#d4a84b" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+                                    Entretien des rayonnages et surfaces de stockage
+                                </li>
+                                <li style="display: flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0; font-size: 0.875rem; color: var(--gray-text);">
+                                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="#d4a84b" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+                                    Lavage des quais de chargement
+                                </li>
+                            </ul>
+                            <a href="contact.html" class="btn-primary">Demander un devis →</a>
+                        </div>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div id="exterieur" class="service-card-lg">
+                        <div class="service-card-image">
+                            <img src="images/service-exterieur.jpg" alt="Nettoyage extérieur">
+                            <span class="service-badge">Extérieur</span>
+                        </div>
+                        <div class="service-card-content">
+                            <h3 class="service-card-title">Nettoyage Extérieur</h3>
+                            <p class="service-card-desc">Entretien des espaces extérieurs industriels : parkings, cours de manutention, façades et surfaces extérieures.</p>
+                            <ul style="list-style: none; margin-bottom: 1.5rem;">
+                                <li style="display: flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0; font-size: 0.875rem; color: var(--gray-text);">
+                                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="#d4a84b" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+                                    Lavage haute pression des parkings
+                                </li>
+                                <li style="display: flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0; font-size: 0.875rem; color: var(--gray-text);">
+                                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="#d4a84b" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+                                    Nettoyage des façades et bardages
+                                </li>
+                            </ul>
+                            <a href="contact.html" class="btn-primary">Demander un devis →</a>
+                        </div>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div id="aviation" class="service-card-lg">
+                        <div class="service-card-image">
+                            <img src="images/service-avion.jpg" alt="Nettoyage aviation">
+                            <span class="service-badge">Agrément DGAC</span>
+                        </div>
+                        <div class="service-card-content">
+                            <h3 class="service-card-title">Nettoyage Aviation</h3>
+                            <p class="service-card-desc">Service certifié pour l'aviation : nettoyage de cabines d'avion, zones aéroportuaires et espaces réglementés.</p>
+                            <ul style="list-style: none; margin-bottom: 1.5rem;">
+                                <li style="display: flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0; font-size: 0.875rem; color: var(--gray-text);">
+                                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="#d4a84b" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+                                    Nettoyage complet des cabines passagers
+                                </li>
+                                <li style="display: flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0; font-size: 0.875rem; color: var(--gray-text);">
+                                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="#d4a84b" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+                                    Service d'armement et préparation
+                                </li>
+                                <li style="display: flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0; font-size: 0.875rem; color: var(--gray-text);">
+                                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="#d4a84b" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+                                    Fouille de sûreté certifiée
+                                </li>
+                            </ul>
+                            <a href="contact.html" class="btn-primary">Demander un devis →</a>
+                        </div>
+                    </div>
+
+                    <!-- Service 5 -->
+                    <div id="desinfection" class="service-card-lg">
+                        <div class="service-card-image">
+                            <img src="images/service-desinfection.jpg" alt="Désinfection">
+                            <span class="service-badge">Sanitaire</span>
+                        </div>
+                        <div class="service-card-content">
+                            <h3 class="service-card-title">Désinfection Professionnelle</h3>
+                            <p class="service-card-desc">Services de désinfection complète pour les environnements industriels et professionnels. Utilisation de produits certifiés.</p>
+                            <ul style="list-style: none; margin-bottom: 1.5rem;">
+                                <li style="display: flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0; font-size: 0.875rem; color: var(--gray-text);">
+                                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="#d4a84b" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+                                    Désinfection des points de contact
+                                </li>
+                               
+                                <li style="display: flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0; font-size: 0.875rem; color: var(--gray-text);">
+                                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="#d4a84b" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+                                    Certificat de désinfection
+                                </li>
+                            </ul>
+                            <a href="contact.html" class="btn-primary">Demander un devis →</a>
+                        </div>
+                    </div>
+
+                    <!-- Service 6 -->
+                    <div id="dechets" class="service-card-lg">
+                        <div class="service-card-image">
+                            <img src="images/service-dechets.jpg" alt="Gestion des déchets">
+                            <span class="service-badge">Environnement</span>
+                        </div>
+                        <div class="service-card-content">
+                            <h3 class="service-card-title">Gestion des Déchets</h3>
+                            <p class="service-card-desc">Service complet de gestion des déchets industriels : tri sélectif, collecte régulière et évacuation conforme aux réglementations.</p>
+                            <ul style="list-style: none; margin-bottom: 1.5rem;">
+                                <li style="display: flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0; font-size: 0.875rem; color: var(--gray-text);">
+                                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="#d4a84b" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+                                    Tri sélectif sur site
+                                </li>
+                                <li style="display: flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0; font-size: 0.875rem; color: var(--gray-text);">
+                                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="#d4a84b" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+                                    Collecte des déchets dangereux
+                                </li>
+                                <li style="display: flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0; font-size: 0.875rem; color: var(--gray-text);">
+                                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="#d4a84b" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+                                    Conseil en éco-responsabilité
+                                </li>
+                            </ul>
+                            <a href="contact.html" class="btn-primary">Demander un devis →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section section-blue">
+        <div class="container" style="text-align: center;">
+            <h2 style="font-size: 2.5rem; font-weight: 700; color: white; margin-bottom: 1rem;">Besoin d'un service sur mesure ?</h2>
+            <p style="color: rgba(255,255,255,0.8); font-size: 1.125rem; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">Contactez-nous pour discuter de vos besoins spécifiques et obtenir un devis personnalisé.</p>
+            <a href="contact.html" class="btn-primary">Nous contacter →</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="footer-logo-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                            </svg>
+                        </div>
+                        <div class="footer-logo-text">
+                            <span class="footer-logo-main">INDUSTRIE</span>
+                            <span class="footer-logo-sub">CLEANING SERVICES</span>
+                        </div>
+                    </div>
+                    <p class="footer-desc">Expert en nettoyage industriel et aérien. Agrément DGAC, interventions 24/7 sur CDG & Orly.</p>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Liens rapides</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="qui-sommes-nous.html">Qui sommes-nous</a></li>
+                        <li><a href="services.html">Nos Services</a></li>
+                        <li><a href="engagement.html">Notre Engagement</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Devis gratuit</h4>
+                    <a href="contact.html" class="btn-primary" style="display: inline-block;">Demande de Devis</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2024 Industrie Cleaning Services. Tous droits réservés.</p>
+                <div class="footer-icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
