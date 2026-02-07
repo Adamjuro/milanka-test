@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez nos engagements : excellence, confidentialité, flexibilité et écologie. Industrie Cleaning Services - Votre partenaire nettoyage.">
+    <title>Notre Engagement - Industrie Cleaning Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <img src="./images/image.png" alt="Logo Industrie Cleaning Services" class="custom-logo">
+                </div>
+                <div class="logo-text">
+                    <span class="logo-main">INDUSTRIE</span>
+                    <span class="logo-sub">CLEANING SERVICES</span>
+                </div>
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="qui-sommes-nous.html" class="nav-link">Qui sommes-nous</a></li>
+                <li><a href="services.html" class="nav-link">Nos Services</a></li>
+                <li><a href="engagement.html" class="nav-link active">Notre Engagement</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+
+            <a href="contact.html" class="btn-primary">Demande de Devis</a>
+
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="index.html" class="mobile-nav-link">Accueil</a>
+            <a href="qui-sommes-nous.html" class="mobile-nav-link">Qui sommes-nous</a>
+            <a href="services.html" class="mobile-nav-link">Nos Services</a>
+            <a href="engagement.html" class="mobile-nav-link active">Notre Engagement</a>
+            <a href="contact.html" class="mobile-nav-link">Contact</a>
+            <a href="contact.html" class="btn-primary" style="margin-top: 1rem; display: block; text-align: center;">Demande de Devis</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 60vh;">
+        <div class="hero-bg">
+            <img src="images/2.png" alt="Notre engagement">
+        </div>
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content" style="padding-top: 8rem;">
+            <h1 class="hero-title">Notre <span>Engagement</span></h1>
+            <p class="hero-subtitle">Des valeurs fortes qui guident chacune de nos interventions et inspirent confiance à nos clients.</p>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos Valeurs</h2>
+                <p class="section-subtitle">Quatre piliers fondamentaux qui définissent notre approche du métier</p>
+            </div>
+
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="value-title">Excellence & Qualité</h3>
+                    <p class="value-desc">Des résultats impeccables avec une attention absolue aux détails sur chaque intervention.</p>
+                    <ul class="value-list">
+                        <li>Contrôle qualité systématique</li>
+                        <li>Produits professionnels haut de gamme</li>
+                        <li>Formation continue des équipes</li>
+                        <li>Suivi personnalisé des interventions</li>
+                    </ul>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                        </svg>
+                    </div>
+                    <h3 class="value-title">Discrétion & Confidentialité</h3>
+                    <p class="value-desc">Respect total de votre vie privée et de vos informations sensibles.</p>
+                    <ul class="value-list">
+                        <li>Clause de confidentialité</li>
+                        <li>Personnel formé à la discrétion</li>
+                        <li>Protection des données clients</li>
+                        <li>Interventions discrètes</li>
+                    </ul>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="value-title">Flexibilité & Adaptation</h3>
+                    <p class="value-desc">Nous nous adaptons à vos besoins spécifiques avec réactivité et professionnalisme.</p>
+                    <ul class="value-list">
+                        <li>Horaires adaptés à votre activité</li>
+                        <li>Interventions d'urgence 24/7</li>
+                        <li>Solutions sur-mesure</li>
+                        <li>Réactivité garantie</li>
+                    </ul>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="value-title">Éthique & Écologie</h3>
+                    <p class="value-desc">Produits écologiques et pratiques respectueuses de l'environnement.</p>
+                    <ul class="value-list">
+                        <li>Produits certifiés éco-responsables</li>
+                        <li>Gestion optimisée des déchets</li>
+                        <li>Réduction de l'impact carbone</li>
+                        <li>Démarche RSE engagée</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section section-gray">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos Certifications</h2>
+                <p class="section-subtitle">Des garanties de qualité et de professionnalisme pour vos interventions</p>
+            </div>
+
+            <div class="certs-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        </svg>
+                    </div>
+                    <h3 class="cert-title">Agrément DGAC</h3>
+                    <p class="cert-desc">Certification officielle pour intervenir sur les plateformes aéroportuaires</p>
+                </div>
+
+                
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="cert-title">Disponibilité 24/7</h3>
+                    <p class="cert-desc">Interventions à toute heure, tous les jours de l'année</p>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="cert-title">Personnel Qualifié</h3>
+                    <p class="cert-desc">Équipes formées et certifiées aux normes en vigueur</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Notre Processus</h2>
+                <p class="section-subtitle">Une méthodologie éprouvée pour garantir la qualité de nos interventions</p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; text-align: center;">
+                <div style="position: relative;">
+                    <div style="width: 64px; height: 64px; background: var(--gold); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+                        <span style="color: var(--blue-dark); font-weight: 700; font-size: 1.5rem;">1</span>
+                    </div>
+                    <h3 style="font-weight: 700; color: var(--blue-primary); margin-bottom: 0.5rem;">Diagnostic</h3>
+                    <p style="color: var(--gray-text); font-size: 0.875rem;">Analyse de vos besoins et évaluation sur site gratuite</p>
+                    <div style="position: absolute; top: 32px; left: 60%; width: 100%; height: 2px; background: rgba(212, 168, 75, 0.3); display: none;"></div>
+                </div>
+
+                <div>
+                    <div style="width: 64px; height: 64px; background: var(--gold); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+                        <span style="color: var(--blue-dark); font-weight: 700; font-size: 1.5rem;">2</span>
+                    </div>
+                    <h3 style="font-weight: 700; color: var(--blue-primary); margin-bottom: 0.5rem;">Proposition</h3>
+                    <p style="color: var(--gray-text); font-size: 0.875rem;">Devis détaillé et plan d'action personnalisé</p>
+                </div>
+
+                <div>
+                    <div style="width: 64px; height: 64px; background: var(--gold); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+                        <span style="color: var(--blue-dark); font-weight: 700; font-size: 1.5rem;">3</span>
+                    </div>
+                    <h3 style="font-weight: 700; color: var(--blue-primary); margin-bottom: 0.5rem;">Intervention</h3>
+                    <p style="color: var(--gray-text); font-size: 0.875rem;">Exécution professionnelle avec contrôle qualité</p>
+                </div>
+
+                <div>
+                    <div style="width: 64px; height: 64px; background: var(--gold); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+                        <span style="color: var(--blue-dark); font-weight: 700; font-size: 1.5rem;">4</span>
+                    </div>
+                    <h3 style="font-weight: 700; color: var(--blue-primary); margin-bottom: 0.5rem;">Suivi</h3>
+                    <p style="color: var(--gray-text); font-size: 0.875rem;">Bilan et recommandations pour la suite</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section section-blue">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <h2 style="font-size: 2.5rem; font-weight: 700; color: white; margin-bottom: 1rem;">Ils nous font confiance</h2>
+                <div style="width: 60px; height: 4px; background: var(--gold); margin: 0 auto; border-radius: 2px;"></div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+                <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 12px; padding: 1.5rem;">
+                    <div style="display: flex; gap: 0.25rem; margin-bottom: 1rem;">
+                        <span style="color: var(--gold);">★</span>
+                        <span style="color: var(--gold);">★</span>
+                        <span style="color: var(--gold);">★</span>
+                        <span style="color: var(--gold);">★</span>
+                        <span style="color: var(--gold);">★</span>
+                    </div>
+                    <p style="color: rgba(255,255,255,0.8); margin-bottom: 1rem;">"Une équipe professionnelle et réactive. Le nettoyage de nos ateliers est impeccable."</p>
+                    <p style="color: var(--gold); font-weight: 600;">— Directeur d'usine, Seine-et-Marne</p>
+                </div>
+
+                <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 12px; padding: 1.5rem;">
+                    <div style="display: flex; gap: 0.25rem; margin-bottom: 1rem;">
+                        <span style="color: var(--gold);">★</span>
+                        <span style="color: var(--gold);">★</span>
+                        <span style="color: var(--gold);">★</span>
+                        <span style="color: var(--gold);">★</span>
+                        <span style="color: var(--gold);">★</span>
+                    </div>
+                    <p style="color: rgba(255,255,255,0.8); margin-bottom: 1rem;">"Disponibles 24/7, ils s'adaptent parfaitement à nos contraintes de production."</p>
+                    <p style="color: var(--gold); font-weight: 600;">— Responsable Logistique, Val-d'Oise</p>
+                </div>
+
+                <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 12px; padding: 1.5rem;">
+                    <div style="display: flex; gap: 0.25rem; margin-bottom: 1rem;">
+                        <span style="color: var(--gold);">★</span>
+                        <span style="color: var(--gold);">★</span>
+                        <span style="color: var(--gold);">★</span>
+                        <span style="color: var(--gold);">★</span>
+                        <span style="color: var(--gold);">★</span>
+                    </div>
+                    <p style="color: rgba(255,255,255,0.8); margin-bottom: 1rem;">"Service de nettoyage aviation irréprochable. Respect total des normes DGAC."</p>
+                    <p style="color: var(--gold); font-weight: 600;">— Compagnie Aérienne, CDG</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section section-gray">
+        <div class="container" style="text-align: center;">
+            <h2 style="font-size: 2.5rem; font-weight: 700; color: var(--blue-primary); margin-bottom: 1rem;">Prêt à nous confier votre nettoyage ?</h2>
+            <p style="color: var(--gray-text); font-size: 1.125rem; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">Contactez-nous dès maintenant pour un diagnostic gratuit de vos besoins</p>
+            <a href="contact.html" class="btn-primary">Demander un devis →</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="footer-logo-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                            </svg>
+                        </div>
+                        <div class="footer-logo-text">
+                            <span class="footer-logo-main">INDUSTRIE</span>
+                            <span class="footer-logo-sub">CLEANING SERVICES</span>
+                        </div>
+                    </div>
+                    <p class="footer-desc">Expert en nettoyage industriel et aérien. Agrément DGAC, interventions 24/7 sur CDG & Orly.</p>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Liens rapides</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="qui-sommes-nous.html">Qui sommes-nous</a></li>
+                        <li><a href="services.html">Nos Services</a></li>
+                        <li><a href="engagement.html">Notre Engagement</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Devis gratuit</h4>
+                    <a href="contact.html" class="btn-primary" style="display: inline-block;">Demande de Devis</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2024 Industrie Cleaning Services. Tous droits réservés.</p>
+                <div class="footer-icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
